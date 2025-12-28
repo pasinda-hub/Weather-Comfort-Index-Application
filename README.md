@@ -22,21 +22,22 @@ A secure, full-stack weather analytics application that retrieves real-time weat
 The Comfort Index quantifies outdoor comfort using 5 weighted parameters, with a score from 0–100:
 
 ```
-ComfortIndex = TemperatureScore (0-30)
-             + HumidityScore (0-25)
+ComfortIndex = TemperatureScore (0-40)
+             + HumidityScore (0-30)
              + WindSpeedScore (0-20)
-             + VisibilityScore (0-15)
-             + PressureScore (0-10)
+             + VisibilityScore (0-10)
+
 ```
 
 ### Parameters and Weighting
 
-| Parameter    | Weight | Optimal Range | Reasoning                                    |
-|--------------|--------|---------------|----------------------------------------------|
-| Temperature  | 30%    | 20–25°C       | Primary factor for perceived comfort         |
-| Humidity     | 25%    | 40–60%        | Impacts thermal perception                   |
-| Wind Speed   | 20%    | 0–5 m/s       | Affects outdoor activity comfort             |
-| Visibility   | 15%    | ≥8 km         | Indicates air quality and clarity            |
+| Parameter   | Weight | Optimal Range | Reasoning                            |
+| ----------- | ------ | ------------- | ------------------------------------ |
+| Temperature | 40%    | 20–25°C       | Primary factor for perceived comfort |
+| Humidity    | 30%    | 40–60%        | Impacts thermal perception           |
+| Wind Speed  | 20%    | 0–5 m/s       | Affects outdoor activity comfort     |
+| Visibility  | 10%    | ≥8 km         | Indicates air quality and clarity    |
+
 
 
 ### Rating Categories
