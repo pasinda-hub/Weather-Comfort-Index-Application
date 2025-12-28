@@ -110,7 +110,7 @@ Create a `.env` file in the root directory:
 
 ```env
 PORT=3001
-OPENWEATHER_API_KEY=your_api_key_here
+OPENWEATHER_API_KEY=0d2ee88229e8317a44ddd5644ff98b19
 ```
 
 **Note:** If you don't have an API key, the app will use mock data automatically.
