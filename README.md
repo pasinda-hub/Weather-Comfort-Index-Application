@@ -103,6 +103,7 @@ cd weather-comfort-index
 
 ```bash
 npm install
+npm run dev
 ```
 
 Create a `.env` file in the root directory:
