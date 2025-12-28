@@ -37,7 +37,7 @@ ComfortIndex = TemperatureScore (0-30)
 | Humidity     | 25%    | 40–60%        | Impacts thermal perception                   |
 | Wind Speed   | 20%    | 0–5 m/s       | Affects outdoor activity comfort             |
 | Visibility   | 15%    | ≥8 km         | Indicates air quality and clarity            |
-| Pressure     | 10%    | ~1013 hPa     | Affects overall atmospheric comfort          |
+
 
 ### Rating Categories
 
